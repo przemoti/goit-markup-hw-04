@@ -1,0 +1,313 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: #ffffff;
+  color: #212121;
+}
+
+:root {
+  --logo-color: #2196f3;
+  --web-hover: #2196f3;
+  --web-focus: #2196f3;
+  --logo-hover: #2196f3;
+  --logo-focus: #2196f3;
+}
+
+a[href] {
+  text-decoration: none;
+  color: #212121;
+}
+
+.navigation {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.navigation-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+
+.web {
+  color: var(--logo-color);
+}
+
+.web:hover {
+  color: var(--web-hover);
+}
+
+.web:focus {
+  color: var(--web-focus);
+}
+
+.logo:focus {
+  color: var(-logo-focus);
+}
+
+.logo:hover {
+  color: var(--logo-hover);
+}
+
+.navigation-list-header {
+  list-style-type: none;
+}
+
+.navigation > li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+:root {
+  --navigation-a-hover: #2196f3;
+  --navigation-a-focus: #2196f3;
+  --header-adres-a-hover: #2196f3;
+  --header-adres-a-focus: #2196f3;
+}
+
+.navigation a:hover {
+  color: var(--navigation-a-hover);
+}
+
+.navigation a:focus {
+  color: var(--navigation-a-focus);
+}
+
+.header-adres{
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header-adres a{  
+  color: #757575;
+}
+
+.header-adres a:hover {
+  text-decoration: none;
+  color: var(--header-adres-a-hover);
+}
+
+.header-adres a:focus {
+  color: var(--header-adres-a-focus);
+}
+
+.services {
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.services h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+}
+
+.services-button {
+  background: #2196f3;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.services-button:hover {
+  color: black;
+}
+
+.services-button:focus {
+  color: black;
+}
+
+.general-list-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.general-list {
+  list-style-type: none;
+}
+
+.general p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.about {
+  list-style-type: none;
+}
+
+.heading2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+}
+
+.team{
+  background-color: #F5F4FA;
+
+}
+
+.team-list {
+  list-style-type: none;
+}
+
+.photoshadow {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.figcaption p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.figcaption h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.footer-icon{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  font-size: 14px;
+  background: #2f303a;
+  color: #ffffff;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-address{
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+}
+
+.footer-address:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.fotter-contact a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fotter-contact a:hover {
+  color: #2196f3;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+:root {
+  --studio: #ffffff;
+  --studio-hover: #2196f3;
+  --studio-focus: #2196f3;
+}
+
+.studio {
+  color: var(--studio);
+}
+
+.studio:hover {
+  color: var(--studio-hover);
+}
+
+.studio:focus {
+  color: var(--studio-focus);
+}
+
+.navigation-portfolio {
+  list-style-type: none;
+}
+
+:root {
+  --button-hover: white;
+  --button-focus: black;
+}
+
+.navigation-portfolio-button {
+  width: 121px;
+  height: 38px;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation-portfolio-button:hover {
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--button-hover);
+}
+
+.navigation-portfolio-button:focus {
+  color: var(--button-focus);
+}
+
+.portfolio-main-section li {
+  list-style-type: none;
+}
+
+.portfolio-main-section h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-main-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
