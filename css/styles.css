@@ -6,18 +6,20 @@ body {
 
 .container{
   display:flex;
-  width: 1200px;
+  width: var(--width);  
   flex-direction: column;
   align-items: flex-start;
   margin: auto;
   }
-
+:root{
+  --width: 1200px;
+}
 .container-header{
   display: flex;
   justify-content: space-around;  
   height: 80px;
   border-bottom: 0.5px solid black;
-  width: 1200px;
+  width: var(--width);
 }
 
 .container-header-nav{
