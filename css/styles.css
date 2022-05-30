@@ -219,15 +219,15 @@ a[href] {
 }
 
 .about {
-  display:flex;  
+  display: flex;
   width: var(--width);
   list-style-type: none;  
+  margin-bottom: 94px;
   }
 
 .about > li{  
   margin: 2px;  
-  justify-content: center; 
-  
+  justify-content: center;   
 }
 
 
@@ -242,11 +242,19 @@ a[href] {
 
 .team{
   background-color: #F5F4FA;
-
-}
+  width: var(--width);
+  }
 
 .team-list {
-  list-style-type: none;
+  list-style-type: none;  
+  display: flex;
+  
+}
+
+.team-list > li{
+justify-content: space-around;
+margin-left: -55PX;
+
 }
 
 .photoshadow {
