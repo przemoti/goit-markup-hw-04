@@ -1,47 +1,8 @@
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background-color: #ffffff;
-  color: #212121;  
-  }
-
-.container{
-  display: flex;  
-  width: 1200px;
-  margin-left: 10px; 
-  border: 1px solid black;
+  color: #212121;
 }
-
-.block{
-  display: flex;
-  margin: auto;
-  padding: auto;
-}
-
-.container-nav{  
-  display: flex;
-  margin: auto;
-  width: 80px;
-  padding: auto;  
-}
-
-.style-header-adres{
-  display: flex;
-  margin: 0 auto;
-  background-color: green;
-  
-  }
-
-.navigation-list-header{
-  display: flex;  
-  
-}
-
 
 :root {
   --logo-color: #2196f3;
@@ -61,15 +22,6 @@ a[href] {
   font-style: normal;
   line-height: 1.5;
   font-weight: 500;
-  display: flex; 
-  align-items: baseline;
-  min-width: none;
-}
-
-.navigation-header{
-  display: flex;   
-  align-items: center;
-  background-color: aqua;
 }
 
 .navigation-logo {
@@ -105,7 +57,6 @@ a[href] {
 
 .navigation-list-header {
   list-style-type: none;
-  display: flex;
 }
 
 .navigation > li {
@@ -131,15 +82,13 @@ a[href] {
   color: var(--navigation-a-focus);
 }
 
-.header-adres {
+.header-adres{
   list-style-type: none;
   font-size: 14px;
   font-weight: 500;
-  display: inline;
-  
 }
 
-.header-adres a {
+.header-adres a{  
   color: #757575;
 }
 
@@ -218,10 +167,12 @@ a[href] {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  
 }
 
-.team {
-  background-color: #f5f4fa;
+.team{
+  background-color: #F5F4FA;
+
 }
 
 .team-list {
@@ -250,7 +201,7 @@ a[href] {
   letter-spacing: 0.03em;
 }
 
-.footer-icon {
+.footer-icon{
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
@@ -273,7 +224,7 @@ a[href] {
   text-decoration: none;
 }
 
-.footer-address {
+.footer-address{
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
