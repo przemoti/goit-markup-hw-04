@@ -16,7 +16,7 @@ body {
 }
 .container-header{
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-between;  
   height: 80px;
   border-bottom: 0.5px solid black;
   width: var(--width);
@@ -25,7 +25,7 @@ body {
 .container-header-nav{
   display:flex;
   margin: auto;
-   }
+  }
 
 .container-header-list{
   display: flex;  
@@ -34,14 +34,11 @@ body {
 
 .container-header-list > li{
   padding: 20px;
-}
+  }
 
 .container-section{
   display: flex;   
-  }
-
-
-
+}
 
 :root {
   --logo-color: #2196f3;
@@ -61,6 +58,8 @@ a[href] {
   font-style: normal;
   line-height: 1.5;
   font-weight: 500;
+  margin: 0;
+  justify-content: flex-start;
 }
 
 .navigation-logo {
@@ -198,9 +197,17 @@ a[href] {
   letter-spacing: 0.03em;
 }
 
-.general-list {
-  list-style-type: none;
+.general-list > li{
+  padding: 20px;
 }
+
+.general-list {
+  list-style-type: none;  
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 94px;
+  }
+
 
 .general p {
   font-weight: 400;
