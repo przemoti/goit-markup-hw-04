@@ -398,3 +398,19 @@ a[href] {
   margin: 5px;
   padding: 0 auto;
 }
+
+.portfolio-main-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+.container-section-portfolio-list-item {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.container-section-portfolio-list-item {
+  flex-basis: calc(100% / 3 - 5 px);
+}
