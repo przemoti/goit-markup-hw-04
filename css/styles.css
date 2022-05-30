@@ -4,6 +4,32 @@ body {
   color: #212121;
 }
 
+.container{
+  display:flex;
+  width: 1200px;
+  flex-direction: column;
+  
+}
+
+.container-header{
+  display: flex;
+  justify-content: space-around;  
+  height: 80px;
+}
+
+.container-header-nav{
+  display:flex;
+   }
+
+.container-header-list{
+  display: flex;  
+}
+
+.container-header-list > li{
+  padding: 20px;
+}
+
+
 :root {
   --logo-color: #2196f3;
   --web-hover: #2196f3;
@@ -33,6 +59,7 @@ a[href] {
   letter-spacing: 0.03em;
   color: var(--logo-color);
   text-decoration: none;
+  padding: 20px;
 }
 
 .web {
@@ -57,7 +84,7 @@ a[href] {
 
 .navigation-list-header {
   list-style-type: none;
-}
+  }
 
 .navigation > li {
   font-style: normal;
