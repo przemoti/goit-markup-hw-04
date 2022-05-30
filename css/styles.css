@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   margin: auto;
+  border: 1px solid black;
   }
 :root{
   --width: 1200px;
@@ -218,8 +219,17 @@ a[href] {
 }
 
 .about {
-  list-style-type: none;
+  display:flex;  
+  width: var(--width);
+  list-style-type: none;  
+  }
+
+.about > li{  
+  margin: 2px;  
+  justify-content: center; 
+  
 }
+
 
 .heading2 {
   font-weight: 700;
