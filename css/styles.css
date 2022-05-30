@@ -10,7 +10,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   margin: auto;
-  border: 1px solid black;
   }
 :root{
   --width: 1200px;
@@ -241,20 +240,24 @@ a[href] {
 }
 
 .team{
-  background-color: #F5F4FA;
+  background-color: #F5F4FA; 
+  }
+
+  .container-section-team{
   width: var(--width);
+  height: 648px;
+  align-items: flex-start;
+  justify-content: center;
   }
 
 .team-list {
   list-style-type: none;  
-  display: flex;
-  
-}
+  display: flex;  
+  }
 
 .team-list > li{
 justify-content: space-around;
 margin-left: -55PX;
-
 }
 
 .photoshadow {
@@ -291,6 +294,7 @@ margin-left: -55PX;
   font-size: 14px;
   background: #2f303a;
   color: #ffffff;
+  width: var(--width);
 }
 
 .footer-logo {
