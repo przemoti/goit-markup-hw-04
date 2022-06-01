@@ -100,6 +100,7 @@ a[href] {
 
 .navigation-list-header {
   list-style-type: none;
+  width: 100%;
 }
 
 .navigation > li {
@@ -192,7 +193,9 @@ a[href] {
 }
 
 .general{
-  dispaly:flex;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;  
   }
@@ -211,18 +214,10 @@ a[href] {
   justify-content: center;
 }
 
-.general-list:first-child{
-  padding-left: 215px;
-}
-
-
-
 .general-list {
   list-style-type: none;
   display: flex;  
-  width:1170px;
   padding: 94px;
- 
   }
 
 .general p {
@@ -235,9 +230,11 @@ a[href] {
 
 .about {
   display: flex;
-  width: var(--width);
+  width: 100%;
   list-style-type: none;
   margin-bottom: 94px;
+  padding-left: auto;
+  justify-content: center;
 }
 
 .about > li {
@@ -257,27 +254,35 @@ a[href] {
   background-color: #f5f4fa;
 }
 
-.container-section-team {
-  width: var(--width);
+.section-team {
+  display: flex;
+  width: 1170px;
   height: 648px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-}
+  padding-left: 30px;
+  }
 
+  
 .team-list {
   list-style-type: none;
   display: flex;
 }
 
 .team-list > li {
-  justify-content: space-around;
-  margin-left: -55px;
+  justify-content: center;
+  padding: 30px;
+  
 }
 
 .photoshadow {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.figure{
+  margin: none;
 }
 
 .figcaption p {
