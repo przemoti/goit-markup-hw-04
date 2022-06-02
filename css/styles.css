@@ -209,7 +209,6 @@ a[href] {
   list-style-type: none;
   display:flex;
   flex-wrap: wrap;
-  justify-content: center;
   justify-content: space-between;
   }
 
@@ -230,17 +229,13 @@ width: 270px;
   width: 1170px;
   list-style-type: none;
   margin-bottom: 94px;
-  padding-left: auto;
+  display: flex;
   justify-content: center;
 }
 
-.about > li {
-  margin: 2px;
-  justify-content: center;
-  padding-left: 30px;
-}
-
-
+.about-item{
+  width: 1170px;
+  }
 
 .heading2 {
   font-weight: 700;
