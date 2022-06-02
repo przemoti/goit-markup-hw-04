@@ -23,8 +23,10 @@ body {
 }
 
 .container {
-  display: flex;
   width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 2px solid red;
   }
 
 .container-header {
@@ -32,10 +34,11 @@ body {
   justify-content: space-between;
   height: 80px;
   border-bottom: 0.5px solid black;
-  width: 100%;
+  width: auto;
   padding: none;
   margin: none;
   align-items: center;
+  justify-content: space-between;
 }
 
 .container-header-nav {
@@ -123,10 +126,13 @@ a[href] {
   list-style-type: none;
   font-size: 14px;
   font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header-adres a {
   color: #757575;
+
 }
 
 .header-adres a:hover {
@@ -136,14 +142,6 @@ a[href] {
 
 .header-adres a:focus {
   color: var(--header-adres-a-focus);
-}
-
-.container-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: auto;
-  padding: 80px;
 }
 
 .services {
@@ -156,7 +154,9 @@ a[href] {
   text-transform: uppercase;
   color: #ffffff;
   height: 600px;
+  display: flex;
   width: 100%;
+  align-items: center;
 }
 
 .section{
@@ -193,39 +193,29 @@ a[href] {
 }
 
 .general{
-  display: flex;
-  justify-content: center;
   width: 1170px;
   padding-top: 94px;
-  padding-bottom: 94px;  
-  }
+  padding-bottom: 94px; 
+   }
 
 .general-list-heading {
-  display:flex;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
 
-
-
-.general-list > li {
-  width: 270px;
-  height: 75px;
-  padding-left: 30px;
-  justify-content: center;
-}
-
-.general-list {
+.general-list{
   list-style-type: none;
-  display: flex;  
-  padding: 94px;
-  margin: 0px;
+  display:flex;
+  flex-wrap: wrap;
   justify-content: center;
+  justify-content: space-between;
   }
 
-
+.general-list-item{
+width: 270px;
+}
 
 .general p {
   font-weight: 400;
@@ -270,7 +260,6 @@ a[href] {
   height: 648px;
   align-items: center;
   justify-content: center;
-  padding-left: 30px;
   }
 
   
@@ -281,7 +270,7 @@ a[href] {
 
 .team-list > li {
   justify-content: center;
-  padding: 30px;
+  padding-left: 30px;
   
 }
 
