@@ -195,17 +195,20 @@ a[href] {
 .general{
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1170px;
   padding-top: 94px;
   padding-bottom: 94px;  
   }
 
 .general-list-heading {
+  display:flex;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
+
+
 
 .general-list > li {
   width: 270px;
@@ -218,7 +221,11 @@ a[href] {
   list-style-type: none;
   display: flex;  
   padding: 94px;
+  margin: 0px;
+  justify-content: center;
   }
+
+
 
 .general p {
   font-weight: 400;
@@ -230,7 +237,7 @@ a[href] {
 
 .about {
   display: flex;
-  width: 100%;
+  width: 1170px;
   list-style-type: none;
   margin-bottom: 94px;
   padding-left: auto;
@@ -240,7 +247,10 @@ a[href] {
 .about > li {
   margin: 2px;
   justify-content: center;
+  padding-left: 30px;
 }
+
+
 
 .heading2 {
   font-weight: 700;
