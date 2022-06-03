@@ -103,6 +103,7 @@ a[href] {
 .navigation-list-header {
   list-style-type: none;
   width: 100%;
+  align-items: center;
 }
 
 .navigation > li {
@@ -162,7 +163,7 @@ a[href] {
   align-items: center;
   justify-content: center;
   padding-top: 94px;
-    padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .services h1 {
@@ -299,15 +300,18 @@ a[href] {
 }
 
 .footer {
-  height: 252px;
   font-size: 14px;
   background: #2f303a;
   color: #ffffff;
   width: var(--width);
-  display: flex;
   width: 100%;
   align-items: center;
   }
+
+.footer-list{
+  display:flex;
+  flex-direction: column;
+}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
