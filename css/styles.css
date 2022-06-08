@@ -28,14 +28,14 @@ body {
   padding: 0 15px;
  }
 
-.container-header {
+ .container-header {
   display: flex;
   justify-content: space-between;
   height: 80px;
-  border-bottom: 0.5px solid black;
+  border-bottom: 1px solid black;
   width: auto;
-  padding: none;
-  margin: none;
+  padding: 0;
+  margin: 0;
   align-items: center;
   justify-content: space-between;
 }
@@ -43,8 +43,8 @@ body {
 .container-header-nav {
   display: flex;
   width: 145px;
-  padding: none;
-  margin: none;
+  padding: 0;
+  margin: 0;
 }
 
 .container-header-list {
@@ -104,6 +104,8 @@ a[href] {
   list-style-type: none;
   width: 100%;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation > li {
@@ -128,6 +130,8 @@ a[href] {
   font-weight: 500;
   display: flex;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 .header-adres a {
@@ -158,9 +162,6 @@ a[href] {
   align-items: center;  
   background-image: url('./images/h1-background.jpg'); 
 }
-
-
-
 
 .section{
   align-items: center;
@@ -215,6 +216,8 @@ a[href] {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
   }
 
 .general-list-item{
@@ -233,7 +236,7 @@ a[href] {
   display: flex;
   width: 1170px;
   list-style-type: none;
- 
+  padding: 0;
   margin-bottom: 94px;
   justify-content: center;
 }
@@ -263,6 +266,8 @@ a[href] {
   list-style-type: none;
   display: flex;
   width: 1170px;
+  margin: 0;
+  padding: 0;
 }
 
 .team-item{
@@ -314,6 +319,8 @@ a[href] {
 .footer-list{
   display:flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-logo {
@@ -346,6 +353,8 @@ a[href] {
 
 .footer ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .studio {
@@ -362,6 +371,7 @@ a[href] {
 
 .navigation-portfolio {
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .navigation-portfolio-button {
